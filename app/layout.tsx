@@ -1,4 +1,4 @@
-import './globals.css'
+import './globals.scss'
 import type { Metadata } from 'next'
 import { Noto_Sans_JP, Roboto_Condensed, Wix_Madefor_Display } from 'next/font/google'
 import localFont from 'next/font/local'

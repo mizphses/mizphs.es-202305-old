@@ -1,0 +1,101 @@
+.main{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 30px;
+  &__inde{
+    display: grid;
+    gap: 20px;
+    grid-template-columns: 1fr 1fr;
+    max-width: 1200px;
+    margin: 30px auto;
+    height: 80lvh;
+    @media (max-width: 768px) {
+      grid-template-columns: 1fr;
+      height: auto;
+    }
+    .self_intro{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      div{
+        width: 60%;
+        h2{
+          font-size: 2rem;
+          font-weight: 700;
+          margin-bottom: 1rem;
+        }
+      }
+    }
+    .works{
+      display: grid;
+      grid-template-columns: repeat(6, 1fr);
+      grid-template-rows: repeat(3, 1fr);
+      overflow-x: scroll;
+      margin: auto 0;
+      gap: 20px;
+      height: 30rem;
+      a{
+        text-decoration: none;
+        color: inherit;
+        &.works__smallItem{
+          background: white;
+          border-radius: 10px;
+          grid-column: span 2;
+          grid-row: span 1;
+          padding: 0 10px;
+          width: calc(100% - 21px);
+          min-width: 8rem;
+          min-height: 4rem;
+          height: 100%;
+        }
+        &.works__SWItem{
+          background: white;
+          border-radius: 10px;
+          grid-column: span 4;
+          grid-row: span 1;
+          padding: 0 10px;
+        }
+        &.works__SLItem{
+          background: white;
+          border-radius: 10px;
+          grid-column: span 6;
+          grid-row: span 1;
+          padding: 0 10px;
+        }
+        &.works__WWItem{
+          background: white;
+          border-radius: 10px;
+          grid-column: span 4;
+          grid-row: span 2;
+          padding: 0 10px;
+        }
+        &.works__item:hover{
+          animation: hover 0.3s ease-in-out forwards;
+          @keyframes hover {
+            0% {
+              box-shadow: none;
+            }
+            100% {
+              box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.15);
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+.intro{
+  background: #28303d !important;
+  color: #fff !important;
+}
+.twitter{
+  background: rgb(29, 155, 240) !important;
+  color: #fff !important;
+}
+.github{
+  background: #1F2328 !important;
+  color: #fff !important;
+}
