@@ -42,15 +42,15 @@ export default function indexPage() {
                 <p>各種資料や成果物のダウンロードはこちら</p>
               </div>
             </a>
-            <a href="//github.com/mizphses" className={`${Styles.works__SWItem} ${Styles.github}`}>
-              <div>
-                <h3>GitHub</h3>
-                <p>@mizphses</p>
-              </div>
-            </a>
             <a href="//twitter.com/mizphses" className={`${Styles.works__item} ${Styles.works__smallItem} ${Styles.twitter}`}>
               <div>
                 <h3>Twitter</h3>
+                <p>@mizphses</p>
+              </div>
+            </a>
+            <a href="//github.com/mizphses" className={`${Styles.works__SWItem} ${Styles.github}`}>
+              <div>
+                <h3>GitHub</h3>
                 <p>@mizphses</p>
               </div>
             </a>
