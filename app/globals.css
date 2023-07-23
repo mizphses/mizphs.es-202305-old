@@ -1,4 +1,5 @@
 @import "normalize.css/normalize.css";
+@import url("https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200");
 
 :root {
   --font-sans: var(--font-roboto-cond), var(--font-noto-sans-jp), Helvetica, Arial, 'Meiryo UI', 'Hiragino Sans', sans-serif;
@@ -6,6 +7,13 @@
   --font-mono: var(--font-plemol-jp), monospace;
 }
 
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48
+}
 
 body{
   font-family: var(--font-sans);
@@ -15,4 +23,6 @@ body{
   .mono, pre, code{
     font-family: var(--font-mono);
   }
+  background-color: #effffc;
+  color: #273238;
 }

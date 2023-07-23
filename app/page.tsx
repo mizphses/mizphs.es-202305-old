@@ -1,4 +1,5 @@
 import Styles from './page.module.css';
+import Navbar from '../components/parts/navbar';
 import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
@@ -9,6 +10,7 @@ export const metadata: Metadata = {
 export default function indexPage() {
   return (
     <div className={Styles.container}>
+      <Navbar />
       <main className={Styles.main}>
         <h1 className={Styles.title}>
           みずな
