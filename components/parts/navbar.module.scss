@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200");
+
 .material_symbols_outlined {
   font-family: 'Material Symbols Outlined';
   font-weight: normal;
@@ -26,7 +28,6 @@
     top: 0;
     left: 0;
     width: 100%;
-    height: 80px;
     background-color: #fff;
   }
   &__inde{
@@ -80,4 +81,28 @@
 }
 .dummy{
   height: 80px;
+}
+.bottom_menu{
+  background: #fff;
+  &__inde{
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 15px;
+    font-size: 1.2rem;
+    line-height: 1.5rem;
+    margin-bottom: 1rem;
+    ul{
+      padding: 0;
+      margin: 0;
+      list-style: none;
+      a{
+        font-family: var(--font-display);
+        color: #000;
+        text-decoration: none;
+        &:hover{
+          text-decoration: underline;
+        }
+      }
+    }
+  }
 }
