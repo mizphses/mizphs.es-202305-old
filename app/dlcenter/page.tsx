@@ -1,7 +1,7 @@
 import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'Download Center | みずな',
+  title: 'Download Center | みずさわ',
   description: '資料等ダウンロードセンター',
 }
 

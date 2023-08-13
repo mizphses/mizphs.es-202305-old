@@ -3,7 +3,7 @@ import Navbar from '../../components/parts/navbar';
 import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'フロントページ | みずな',
+  title: 'フロントページ | みずさわ',
   description: 'Welcome',
 }
 

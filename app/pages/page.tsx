@@ -1,7 +1,7 @@
 import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'Pageディレクトリへようこそ | みずな',
+  title: 'Pageディレクトリへようこそ | みずさわ',
   description: 'Welcome',
 }
 

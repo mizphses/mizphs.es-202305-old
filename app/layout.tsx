@@ -63,7 +63,7 @@ export const metadata: Metadata = {
         url: 'https://mizphs.es/ogp.png',
         width: 1200,
         height: 630,
-        alt: 'みずな',
+        alt: 'みずさわ',
       },
     ],
   },
