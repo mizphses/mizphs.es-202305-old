@@ -3,6 +3,7 @@
 import Style from './navbar.module.scss'
 import Image from 'next/image'
 import { useState } from 'react'
+import logoImage from '../../public/logo.svg'
 
 export default function Navbar() {
   const menuItems = [
@@ -22,7 +23,7 @@ export default function Navbar() {
           <div className={Style.navbar__left}>
             <div className={Style.navbar__left__logo}>
               <a href="/">
-                <Image src="/logo.svg" alt="logo" width={140} height={70}/>
+                <Image src={logoImage} alt="logo" width={140} height={70}/>
               </a>
             </div>
           </div>
