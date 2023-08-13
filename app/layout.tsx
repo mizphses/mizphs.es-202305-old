@@ -49,18 +49,18 @@ const plemolJp = localFont({
 })
 
 export const metadata: Metadata = {
-  title: 'みずな',
-  description: 'みずなの公式サイトです。',
+  title: 'みずさわ',
+  description: 'みずさわの公式サイトです。',
   openGraph: {
     type: 'website',
     locale: 'ja_JP',
     url: 'https://mizphs.es/',
-    siteName: 'みずな',
-    title: 'みずな',
-    description: 'みずなの公式サイトです。',
+    siteName: 'みずさわ',
+    title: 'みずさわ',
+    description: 'みずさわの公式サイトです。',
     images: [
       {
-        url: 'https://mizphs.es/ogp.webp',
+        url: 'https://mizphs.es/ogp.png',
         width: 1200,
         height: 630,
         alt: 'みずな',

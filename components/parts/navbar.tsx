@@ -1,6 +1,7 @@
 'use client';
 
 import Style from './navbar.module.scss'
+import Image from 'next/image'
 import { useState } from 'react'
 
 export default function Navbar() {
@@ -21,7 +22,7 @@ export default function Navbar() {
           <div className={Style.navbar__left}>
             <div className={Style.navbar__left__logo}>
               <a href="/">
-                みずな
+                <Image src="/logo.svg" alt="logo" width={140} height={70}/>
               </a>
             </div>
           </div>
