@@ -1,5 +1,5 @@
 import Styles from './page.module.scss';
-import Navbar from '../../components/parts/navbar';
+import Navbar from '@/components/parts/navbar';
 import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
